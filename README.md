@@ -284,7 +284,7 @@ If you find AFRAgent useful for your research, please cite our paper:
 
 For questions or issues, please:
 - Open an issue on GitHub
-- Contact: neeraj.anand@[institution].edu
+- Contact: neerajanandfirst@gmail.com
 
 ## 📄 License
 
