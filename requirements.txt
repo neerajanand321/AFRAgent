@@ -1,0 +1,12 @@
+transformers[torch]
+jax[cpu]
+rich
+evaluate
+rouge_score
+tensorflow
+tf-keras
+wandb
+opencv-python
+deepspeed
+pillow
+awscli
