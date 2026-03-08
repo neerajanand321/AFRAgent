@@ -229,10 +229,7 @@ Predictions and metrics are saved to JSON files in the checkpoint directory.
 
 ## 💾 Model Checkpoints
 
-Trained model checkpoints will be available soon. The checkpoints include:
-- Model weights
-- Processor configuration
-- Training configuration
+- AITW (Pure multimodal setting): https://huggingface.co/neeraj321/AFRAgent_pure_multimodel/tree/main
 
 Models are saved in the `experiments/` directory with the naming convention:
 ```
