@@ -69,16 +69,11 @@ cd AFRAgent
 
 ### Step 2: Create Conda Environment
 ```bash
-conda create -n afragent python=3.8
+conda create -n afragent python=3.10.13
 conda activate afragent
 ```
 
-### Step 3: Install PyTorch
-```bash
-conda install pytorch torchvision torchaudio pytorch-cuda=12.4 -c pytorch-nightly -c nvidia
-```
-
-### Step 4: Install Dependencies
+### Step 3: Install Dependencies
 ```bash
 pip install -r requirements.txt
 ```
