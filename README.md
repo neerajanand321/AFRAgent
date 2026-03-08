@@ -207,13 +207,14 @@ Note: Update the WandB API key in `instructblip_main.py` line 30 with your own k
 
 ### Evaluate Trained Model
 ```bash
-python instructblip_main.py \
-  --evaluate_dir /path/to/checkpoint \
-  --data_root 'dataset' \
-  --eval_bs 64 \
-  --use_high_res True \
-  --train_any_res_adain True \
-  --all_eval True
+python instructblip_main.py
+--evaluate_dir your_path/experiments/all_data_any_res_adain_finetuning_blip_lr5e-05_bs128_ip512_op256_ep12/checkpoint-56266
+--use_high_res True
+--train_any_res_adain True
+--data_root dataset/aitw/general/general
+--input_len 512
+--output_len 256
+--eval_bs 8
 ```
 
 ### Evaluation Metrics
