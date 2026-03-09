@@ -686,6 +686,6 @@ if __name__ == '__main__':
         processor.save_pretrained(save_dir)
     else:
         predict_results = trainer.predict(test_dataset=test_set, max_length=args.output_len)
-        preds, targets = predict_results.predcitions, predict_results.label_ids
+        preds, targets = predict_results.predictions, predict_results.label_ids
         eval_preds = (preds, targets)
 
