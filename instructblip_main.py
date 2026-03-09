@@ -27,8 +27,6 @@ import evaluate
 import warnings
 warnings.filterwarnings('ignore')
 
-wandb.login(key = "9dbff17a9a0921d1a6ffb9f04ebfbfb56bbad8d9")
-
 def parse_args():
     parser = argparse.ArgumentParser()
     parser.add_argument('--data_root', type=str, default='dataset/aitw/general/general')
